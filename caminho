@@ -1,2 +1,0 @@
-# adicionar path pelo cmd
-setx path "%path%;C:\Users\{nameUser}\AppData\Roaming\npm"

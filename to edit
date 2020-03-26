@@ -1,0 +1,11 @@
+# add path by cmd
+  setx path "%path%;C:\Users\{nameUser}\AppData\Roaming\npm"
+
+# Docker commands
+- mongo
+  docker pull mongo
+  docker run --name mongodb -p 27017:27017 -d mongo
+
+- myssql
+  docker pull mysql
+  docker run --name dbmysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql
