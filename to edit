@@ -9,3 +9,6 @@
 - myssql
   docker pull mysql
   docker run --name dbmysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql
+
+- POSTGRES
+docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres:11
